@@ -1,4 +1,5 @@
-	- `SELECT Name from sys.databases;`
+
+- `SELECT Name from sys.databases;`
 
 Collecting the plan cache   
 	- `select * from sys.dm_exec_cached_plans cross apply sys.dm_exec_sql_text(plan_handle);`   
